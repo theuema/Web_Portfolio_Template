@@ -1,0 +1,102 @@
+//  _classes.scss
+// mainNav Definitions 
+// 
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-family: $primary_font_family;
+  font-size: 0.75rem;
+  color: $navbar_button_text_color;
+  text-transform: uppercase;
+  background-color: $navbar_color_accent;
+  border: 0;
+}
+#mainNav .navbar-brand {
+  color: $navbar_color_accent;
+  font-family: $primary_font_family;
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-brand img {
+  height: 1.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: $primary_font_family;
+  font-size: 0.95rem;
+  color: $navbar_items_text_color;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: $navbar_color_accent;
+}
+
+// Header Definitions *
+//
+header.CDhead {
+  background-image: url("../img/header-bg.jpg");
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: right;
+  color: $font_header_color;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.CDhead .CDhead-main {
+  font-weight: 400;
+  font-size: 3.25rem;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: $secondary_font_family;
+}
+header.CDhead .CDhead-sub {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: $secondary_font_family;
+}
+
+@media (min-width: 768px) {
+  header.CDhead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+}
+header.CDhead .CDhead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+header.CDhead .CDhead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+}
+
+// About Me Definitions *
+//
+.about-me {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.circle-border img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.about-me h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+// Footer Definitions *
+//
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: $secondary_font_family;
+}

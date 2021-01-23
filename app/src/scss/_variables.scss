@@ -1,0 +1,42 @@
+//  _variables.scss
+// Use this file to override !default Bootstrap includes or define custom variables.
+// For a list of Bootstrap variables you can override, look at node_modules\bootstrap\scss\_variables.scss
+// Info: use "_" in filenames to prevent sass from building the output scss file, but instead they are icluded in the resulting styles.css file. 
+// For more information see https://getbootstrap.com/docs/5.0/customize/sass/
+// For information on colors see https://getbootstrap.com/docs/5.0/customize/color/
+// https://stackoverflow.com/questions/38792005/how-to-change-the-bootstrap-primary-color
+// 
+//  Bootstrap overrides
+// 
+$body-bg: #fff;
+// $primary: #ffdf5e
+$primary: #95daee !default;
+
+// https://stackoverflow.com/questions/24075222/how-can-i-change-the-bootstrap-default-font-family-using-font-from-google
+$font-family-sans-serif: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, 'Montserrat', 'Ubuntu', 'Meslo', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+
+// Custom variables
+//
+$secondary_font_family: 'Raleway', -apple-system, system-ui, BlinkMacSystemFont, 'Ubuntu', 'Meslo', 'Montserrat', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$primary_font_family: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, 'Ubuntu', 'Meslo', 'Montserrat', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// _classes.scss
+$font_header_color: #000;
+
+$navbar_color_accent: $primary;
+$navbar_button_text_color: black;
+$navbar_items_text_color: white;
+
+// _portfolio.scss
+$modal_background_color: transparent;
+
+$portfolio_item_background_color: white;
+$portfolio_item_hover_background_color: transparent;
+$portfolio_item_hover_symbol_color: white;
+// bg_med_color used for portfolio_background_color
+$bg_med_color: #f1f3f4;
+
+// Add Font Awesome vector icons and social logos to our compile
+// https://fontawesome.com/how-to-use/on-the-web/using-with/sass
+$fa-font-path: "../webfonts";

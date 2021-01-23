@@ -1,0 +1,10 @@
+// fonts.scss
+// Use this file to include custom fonts stored locally
+
+@font-face {
+    font-family: 'Meslo';
+    src: url(../../dist/font/MesloLGS_NF_Regular.ttf) format('truetype');
+}
+
+// To implement fonts via scss see https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
+// and import the scss folder into the project structure

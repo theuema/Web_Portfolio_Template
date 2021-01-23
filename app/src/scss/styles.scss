@@ -1,0 +1,24 @@
+// styles.scss
+// Use this file to import all relevant scss files 
+
+// Import other styles here e.g.: directly from app/scss folder
+
+@import 'variables';
+@import 'fonts';
+@import 'classes';
+@import 'section';
+@import 'portfolio';
+
+// Option A: Include all of Bootstrap
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Option B: Include only parts of Bootstrap
+// https://getbootstrap.com/docs/5.0/customize/sass/
+
+// Import Font Awesome icons
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+//@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+//@import "../../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims.scss";
